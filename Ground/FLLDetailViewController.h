@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FLLDetailViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (copy, nonatomic) NSString *url;
 
-@property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
